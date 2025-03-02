@@ -14,6 +14,8 @@ vim.opt.rtp:prepend(lazypath)
 
 local lazy_config = require "configs.lazy"
 
+vim.g.python3_host_prog = "/home/v01d/miniconda3/envs/jobScraper/bin/python"
+
 -- load plugins
 require("lazy").setup({
   {
